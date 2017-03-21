@@ -8,6 +8,6 @@ class WeatherReportTest < Minitest::Test
   end
 
   def test_get_weather
-    assert Weather.new(27701).get_weather["full"] == "Durham, NC"
+    assert Weather.new(27701).get_weather["display_location"]["full"] == "Durham, NC"
   end
 end
