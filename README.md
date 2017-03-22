@@ -1,6 +1,7 @@
-# weather
+## weather
 
-Enter your zipcode by executing the development file.
+#development
+Runs the program, allowing users to get their current forecast by entering their zip code!
 
 # weather.rb
 This file retrieves the current weather.
@@ -14,6 +15,3 @@ More tests can be added for more data points.
 
 # .gitignore
 API key is hidden
-
-#development
-Runs the program, allowing users to get their current forecast. 
