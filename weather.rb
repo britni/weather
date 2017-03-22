@@ -20,5 +20,3 @@ class Weather
     JSON.parse(File.read('key.json'))['apikey']
   end
 end
-
-puts Weather.new(27701).forecast
